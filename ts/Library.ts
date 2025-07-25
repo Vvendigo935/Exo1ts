@@ -10,8 +10,8 @@ export class Library {
     }
 
 
-    addBook(book: Book){
-
+    addBook(book: Book) {
+this.books.push(book);
     }
 
 
