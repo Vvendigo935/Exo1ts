@@ -14,7 +14,14 @@ export class Library {
 this.books.push(book);
     }
 
+findBookByTitle(title: string){
+    this.books.
+}
 
+removeBook(title: string){
+    let book = findBookByTitle(title);
+    this.books.
+}
 
 
 
